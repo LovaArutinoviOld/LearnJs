@@ -1,0 +1,15 @@
+.co{
+	display: flex;
+	justify-content: space-between;
+}
+.co,.cl,.cv,.ca{
+	width: 60px;
+	margin: 0 30px;
+}
+.cv,.ca{
+	text-align: center;
+}
+.elem-wrapper{
+	width: 60px;
+	display: flex;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Работаем с формами input, range, textarea, checkbox...</title>
+</head>
+<body>
+    <div>
+        <input type="password" id="input1">
+        <button id="btn1">Push</button>
+    </div>
+    <div>
+        <input type="color" id="input2">
+        <button id="btn2">Push</button>
+    </div>
+    <div>
+        <input type="date" id="input3">
+        <button id="btn3">Push</button>
+    </div>
+    <div>
+        <input type="range" id="input4" min="0" max="999" value="40">
+        <span id="span4">40</span>
+    </div>
+    <div>
+        <input type="checkbox" id="input5" value="checkbox5">
+        <label id="label5" for="input5">text</label>
+        <button id="button5">Check</button>
+    </div>
+    <div>
+        <form action="" id="form">
+            <textarea name="textarea66" id="textarea6" cols="30" rows="10"></textarea>
+            <input type="text" id="input6" name="input66">
+            <button id="button6">Check</button>
+        </form>
+    </div>
+    <style>
+        #form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+    <script src="script.js"></script>
+</body>
+</html>

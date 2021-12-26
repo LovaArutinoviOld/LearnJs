@@ -1,0 +1,39 @@
+body{
+    background: #00aaaa;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#form{
+    background: #fff;
+    width: 360px;
+    padding: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 10px rgba(0,0,0,.5) ;
+}
+h4{
+    font-family: 'Open Sans',Arial, Helvetica, sans-serif;
+    font-style: 18px;
+    margin: 25px 0 5px;
+}
+.confirm{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+#check{
+    margin-right: 10px;
+}
+button{
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+    text-align: center;
+    background: #0071e1;
+    color: #fff;
+}
