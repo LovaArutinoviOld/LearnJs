@@ -57,6 +57,5 @@ document.querySelector('.push').onclick = () =>{
 		d[k - 1] = 1
 		k--
 	}
-	
 	document.querySelector('.out2').innerHTML = d
 }
