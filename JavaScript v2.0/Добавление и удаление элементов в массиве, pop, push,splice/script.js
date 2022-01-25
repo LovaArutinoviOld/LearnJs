@@ -1,31 +1,25 @@
-const a = [1, 2, 3, 4, 5, 6, 7, 8, 9,];
-const b = ['a', 'b', 'c', 'd', 'e', 'f']; 
+const a = [1,2,3,4,5,6,7,8,9];
 
-console.log(a.length);
-console.log(a.push(10,11,12,55, 77));
-console.log(a);
- 
-console.log(b);
+const b = ['a' , 'b' , 'c' , 'd' , 'e' , 'f'];
 
-b.push('j', 'h')
-console.log(b);
+console.log(a.length)
+console.log(a.push(10,11,22,33))
+console.log(a)
 
-
-console.log(b.pop());
-console.log(b.pop());
-
+b.push('g','e')
 console.log(b)
+ console.log(b[44] = 'some')
+ console.log(b)
 
+console.log(b.pop())
+console.log(b.length)
 
-// удалить елемент внутри массива
+// delete element in array
 
-delete a[3];
+delete a[4];
 console.log(a);
-a.splice(3,5,'hi');
-console.log(a);
 
-//shift unshift
-console.log(b.shift());
-console.log(b);
-console.log(b.unshift());
-console.log(b);
+a.splice(4,1,b);
+console.log(a)
+a.push('hell')
+console.log(a)
