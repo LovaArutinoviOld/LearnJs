@@ -6,15 +6,14 @@ let b = [
 ];
 console.log(b)
 for (let i = 0; i < b.length; i++){
-	// console.log(b[i])
-	
 
 	let  c = b[i];
 	for( let k = 0; k < c.length; k++){
 		let item = document.createElement('button')
 		item.innerHTML = c[k];
 		item.classList.add('button')
-		document.querySelector('body').appendChild(item)	
+		document.querySelector('body').appendChild(item)
+		
 	}
 }
 let buttons = document.querySelectorAll('button');
